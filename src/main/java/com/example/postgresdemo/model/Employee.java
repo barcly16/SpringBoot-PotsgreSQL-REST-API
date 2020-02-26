@@ -1,18 +1,37 @@
 package com.example.postgresdemo.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", updatable = false, nullable = false)
     private Integer id;
 
+    @NotEmpty(message = "Please provide a name")
     private String name;
     private Integer age;
 
-    public Employee(Integer id, String name, Integer age) {
-        this.id = id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "job_id")
+    private Job job;
+
+    @OneToMany(mappedBy = "employee", cascade = CascadeType.ALL)
+    private List<Address> addresses;
+
+    public Employee() {
+    }
+
+    public Employee(String name, Integer age) {
         this.name = name;
         this.age = age;
     }
