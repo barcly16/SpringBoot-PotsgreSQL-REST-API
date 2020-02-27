@@ -9,7 +9,6 @@ public class Job {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false, nullable = false)
     private Integer id;
 
     private String name;
@@ -19,6 +18,13 @@ public class Job {
     private List<Employee> employees;
 
     public Job() {
+    }
+
+    public Job(Integer id, String name, String description, List<Employee> employees) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.employees = employees;
     }
 
     public Integer getId() {

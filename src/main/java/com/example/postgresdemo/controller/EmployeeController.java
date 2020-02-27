@@ -34,6 +34,8 @@ public class EmployeeController {
                 .map(employee -> {
                     employee.setName(employeeRequest.getName());
                     employee.setAge(employeeRequest.getAge());
+                    employee.setJob(employeeRequest.getJob());
+                    employee.setAddresses(employeeRequest.getAddresses());
                     return employeeRepository.save(employee);
                 }).orElseThrow(() -> new ResourceNotFoundException("Employee not found with id " + employeeId));
     }

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+@RestController
 public class AddressController {
     @Autowired
     private AddressRepository addressRepository;

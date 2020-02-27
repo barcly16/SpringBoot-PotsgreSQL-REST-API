@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ea969c-8dfc-471e-a153-6cff226925ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/exception/CustomGlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/JobRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/AnswerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/EmplyoeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/QuestionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/controller/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/AnswerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/model/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/controller/AddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/controller/JobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/controller/JobController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/model/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/model/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/postgresdemo/model/Job.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,29 +75,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2526" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1582703737953">
+    <state x="2526" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1582724511925">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state x="2526" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582703737953" />
+    <state x="2526" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582724511925" />
     <state x="2451" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582703058322">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
     <state x="2451" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582703058322" />
-    <state width="1559" height="223" key="GridCell.Tab.0.bottom" timestamp="1582704309602">
+    <state width="1559" height="223" key="GridCell.Tab.0.bottom" timestamp="1582728628794">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582704309602" />
-    <state width="1559" height="223" key="GridCell.Tab.0.center" timestamp="1582704309602">
+    <state width="1559" height="223" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582728628794" />
+    <state width="1559" height="223" key="GridCell.Tab.0.center" timestamp="1582728628794">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582704309602" />
-    <state width="1559" height="223" key="GridCell.Tab.0.left" timestamp="1582704309602">
+    <state width="1559" height="223" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582728628794" />
+    <state width="1559" height="223" key="GridCell.Tab.0.left" timestamp="1582728628794">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582704309602" />
-    <state width="1559" height="223" key="GridCell.Tab.0.right" timestamp="1582704309602">
+    <state width="1559" height="223" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582728628794" />
+    <state width="1559" height="223" key="GridCell.Tab.0.right" timestamp="1582728628794">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582704309602" />
+    <state width="1559" height="223" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582728628794" />
+    <state x="2420" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1582786184810">
+      <screen x="1920" y="0" width="1603" height="862" />
+    </state>
+    <state x="2420" y="254" key="com.intellij.ide.util.TipDialog/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582786184810" />
   </component>
 </project>

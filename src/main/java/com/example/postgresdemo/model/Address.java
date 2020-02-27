@@ -1,6 +1,7 @@
 package com.example.postgresdemo.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Address {
@@ -8,10 +9,12 @@ public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
     private String street;
     private Integer houseNumber;
     private String city;
     private Integer zipCode;
+
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "employee_id")
@@ -19,6 +22,8 @@ public class Address {
 
     public Address() {
     }
+
+
 
     public Integer getId() {
         return id;
@@ -60,10 +65,7 @@ public class Address {
         this.zipCode = zipCode;
     }
 
-    public Employee getEmployee() {
-        return employee;
-    }
-
+    //No getter for Employee - endless loop!!!!
     public void setEmployee(Employee employee) {
         this.employee = employee;
     }

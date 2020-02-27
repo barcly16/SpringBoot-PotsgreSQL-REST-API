@@ -11,9 +11,9 @@ import java.util.Set;
 
 @Entity
 public class Employee {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false, nullable = false)
     private Integer id;
 
     @NotEmpty(message = "Please provide a name")
@@ -25,7 +25,7 @@ public class Employee {
     @JoinColumn(name = "job_id")
     private Job job;
 
-    @OneToMany(mappedBy = "employee", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "employee")
     private List<Address> addresses;
 
     public Employee() {
@@ -58,5 +58,21 @@ public class Employee {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public Job getJob() {
+        return job;
+    }
+
+    public void setJob(Job job) {
+        this.job = job;
+    }
+
+    public List<Address> getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(List<Address> addresses) {
+        this.addresses = addresses;
     }
 }

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+@RestController
 public class JobController {
 
     @Autowired
@@ -35,6 +36,7 @@ public class JobController {
                 .map(job -> {
                     job.setName(jobRequest.getName());
                     job.setDescription(jobRequest.getDescription());
+                    job.setEmployees(jobRequest.getEmployees());
                     return jobRepository.save(job);
                 }).orElseThrow(() -> new ResourceNotFoundException("Job not found with id " + jobId));
     }
