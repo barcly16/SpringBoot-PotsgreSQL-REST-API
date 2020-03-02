@@ -7,14 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ea969c-8dfc-471e-a153-6cff226925ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/postgres_demo_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/postgres_demo_jar/postgres-demo.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/postgresdemo/configuration/SpringFoxConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/postgres-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/postgres-demo.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +59,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="PostgresDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -99,29 +109,33 @@
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
     <state x="2451" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582703058322" />
-    <state width="1559" height="223" key="GridCell.Tab.0.bottom" timestamp="1582795465971">
+    <state width="1559" height="223" key="GridCell.Tab.0.bottom" timestamp="1583140518842">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582795465971" />
-    <state width="1559" height="223" key="GridCell.Tab.0.center" timestamp="1582795465971">
+    <state width="1559" height="223" key="GridCell.Tab.0.bottom/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1583140518842" />
+    <state width="1559" height="223" key="GridCell.Tab.0.center" timestamp="1583140518842">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582795465971" />
-    <state width="1559" height="223" key="GridCell.Tab.0.left" timestamp="1582795465971">
+    <state width="1559" height="223" key="GridCell.Tab.0.center/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1583140518842" />
+    <state width="1559" height="223" key="GridCell.Tab.0.left" timestamp="1583140518842">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582795465971" />
-    <state width="1559" height="223" key="GridCell.Tab.0.right" timestamp="1582795465971">
+    <state width="1559" height="223" key="GridCell.Tab.0.left/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1583140518842" />
+    <state width="1559" height="223" key="GridCell.Tab.0.right" timestamp="1583140518842">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state width="1559" height="223" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582795465971" />
-    <state x="2201" y="5" key="SettingsEditor" timestamp="1582789248218">
+    <state width="1559" height="223" key="GridCell.Tab.0.right/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1583140518842" />
+    <state x="2201" y="5" key="SettingsEditor" timestamp="1583135601342">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
-    <state x="2201" y="5" key="SettingsEditor/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582789248218" />
+    <state x="2201" y="5" key="SettingsEditor/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1583135601342" />
     <state x="2420" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1582790708598">
       <screen x="1920" y="0" width="1603" height="862" />
     </state>
     <state x="2420" y="254" key="com.intellij.ide.util.TipDialog/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582790708598" />
+    <state x="2138" y="126" key="new project wizard" timestamp="1582803652909">
+      <screen x="1920" y="0" width="1603" height="862" />
+    </state>
+    <state x="2138" y="126" key="new project wizard/0.0.1603.862/1920.0.1603.862@1920.0.1603.862" timestamp="1582803652909" />
   </component>
 </project>
